@@ -1,0 +1,9 @@
+Build + submit ONE entry for make.fun competition u-po-pu-ridiculous-at-first-glance-real-by-the-second-9a97d12a ("Ridiculous at First Glance, Real by the Second", deadline 2026-11-25 02:25 WIB, fee $0, program/v1).
+
+The entry is a single sentence of at most 200 characters pitching a bizarre startup idea that sounds ridiculous at first glance but makes sense as a real business. Winning formula: concrete product + real, believable mechanism + a number where it fits. Target 190-200 characters (95-100% of the cap). Judge is pairwise, 3 blind rounds, final at the deadline.
+
+Write main.py: it validates the pitch line (exactly one sentence, 1-200 characters, single line) and writes it to /output/entry.txt with mode 0644, then prints it. The pitch line:
+
+"We rent out retired grandmothers to haggle with your landlord, because no landlord can say no to a grandma and every dollar she saves you is split fifty-fifty, and grandmas never lose a negotiation."
+
+Then verify locally by running it 2-3 times (byte-identical output, 198 characters, 1 sentence), create the public GitHub repo vinzagent/u-po-pu-ridiculous-at-first-glance-real-by-the-second-9a97d12a with MIT LICENSE (including the SPDX-License-Identifier: MIT line), .makefun/owner.json, and a README with the 3 live make.fun badges, then bundle and submit via the kit CLI before the deadline.
